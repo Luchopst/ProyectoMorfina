@@ -1,0 +1,13 @@
+.cardsContainer{
+    width: 100%;
+    height: 15rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenesPortada{
+    border: 1px solid greenyellow;
+    width: 100%;
+    height: auto;
+}
