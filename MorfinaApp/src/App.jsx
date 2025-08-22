@@ -1,8 +1,9 @@
 import "./App.css";
 import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
+
 import Content from "./Components/Content";
 import Cards from "./Components/Cards";
+import Footer from "./Components/Footer";
 
 function App() {
   return (

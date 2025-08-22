@@ -1,34 +1,88 @@
 .footerContainer{
     color: aliceblue;
-    position: fixed;
-    background-color: aquamarine;
+    border: 1px solid rgb(246, 242, 242);
+    border-radius: 1rem;
     width: 100%;
-    height: 3rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .created{
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 50%;
-    height: auto;
-    color: aliceblue;
 }
+
 .redes{
-    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    width: 50%;
-    height: auto;
+    gap: 1.5rem; /* un poquito más compacto */
+    width: 30%;
+    height: 5rem;
     color: aliceblue;
-   
 }
-.ig{
-  
-    color: #f91e1e;
+
+/** CONFIGURACION DE COLOR DE LOS ICONOS DE LAS REDES **/
+.logo-instagram,
+.logo-youtube,
+.logo-whatsapp {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;   /* círculo */
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-.yt{
-   
-    color: #f91e1e;
-    
+
+/* Colores */
+.logo-instagram {
+  background: radial-gradient(circle at 30% 107%, 
+    #feda75 0%, 
+    #fa7e1e 25%, 
+    #d62976 50%, 
+    #962fbf 75%, 
+    #4f5bd5 100%);
+}
+
+.logo-youtube {
+  background-color: #FF0000;
+}
+
+.logo-whatsapp {
+  background-color: #25D366;
+}
+
+/* Hover */
+.logo-instagram:hover,
+.logo-youtube:hover,
+.logo-whatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Hacer los SVGs que ocupen todo el contenedor del botón */
+.logo-instagram svg,
+.logo-youtube svg,
+.logo-whatsapp svg {
+  width: 60%;
+  height: 60%;
+  fill: white; /* asegura que el icono sea blanco */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .logo-instagram,
+  .logo-youtube,
+  .logo-whatsapp {
+    width: 40px;
+    height: 40px;
+  }
+  .redes {
+    gap: 1rem;
+    width: 50%;
+  }
 }

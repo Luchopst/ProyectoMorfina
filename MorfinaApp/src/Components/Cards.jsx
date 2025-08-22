@@ -9,32 +9,32 @@ const Cards = () => {
         {/*SUB-contenedor gral*/}
         <div className="imgCard">
           {/*contenedor de card particular */}
-          <h4 className="tituloCard">Voz</h4>
+          <h4 className="tituloCard">Martin (Voz)</h4>
           <img src=".\public\img\martin1.jpg" alt="imagen Martin" />
         </div>
 
         <div className="imgCard">
-          <h4 className="tituloCard">Bateria</h4>
+          <h4 className="tituloCard">Ariel (Bateria)</h4>
           <img src=".\public\img\ariel1.jpg" alt="Imagen Ariel" />
         </div>
 
         <div className="imgCard">
-          <h4 className="tituloCard">Bajo</h4>
+          <h4 className="tituloCard">Braian E. (Bajo)</h4>
           <img src=".\public\img\braianE1.jpg" alt="Imagen Braian E" />
         </div>
 
         <div className="imgCard">
-          <h4 className="tituloCard">Guitarra</h4>
+          <h4 className="tituloCard">Agustin (Guitarra)</h4>
           <img src=".\public\img\agus1.jpg" alt="Imagen Agustin" />
         </div>
 
         <div className="imgCard">
-          <h4 className="tituloCard">Guitarra </h4>
+          <h4 className="tituloCard">Braian M. (Guitarra) </h4>
           <img src=".\public\img\braianM1.jpg" alt="Imagen Braian M" />
         </div>
 
         <div className="imgCard">
-          <h4 className="tituloCard">Teclados</h4>
+          <h4 className="tituloCard">Luciano (Teclados/Coros)</h4>
           <img src=".\public\img\luciano1.jpg" alt="Imagen Luciano" />
         </div>
       </div>
