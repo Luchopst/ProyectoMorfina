@@ -5,12 +5,13 @@
   background-repeat: no-repeat; 
   width: 100%;
   height: 40rem;
+  padding: 3rem;
 
   
 }
 
 
-/*esta es la configuracion para que el fondo de CONTENT titile
+/*esta es la configuracion para que el fondo de CONTENT titile*/
 .text-flicker-in-glow {
 	-webkit-animation: text-flicker-in-glow 4s linear both;
 	        animation: text-flicker-in-glow 4s linear both;
@@ -264,4 +265,4 @@
     opacity: 1;
     text-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
   }
-}*/
+}

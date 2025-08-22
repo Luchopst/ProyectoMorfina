@@ -6,7 +6,7 @@
     justify-content: center; 
     align-items: center;     
     gap: 2rem;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .imagenesPortada {
@@ -53,4 +53,19 @@
 /* aparece cuando hago hover en la card (o imagen) */
 .imgCard:hover .tituloCard {
     opacity: 1;
+}
+
+/* --- RESPONSIVE: Celulares / pantallas pequeñas --- */
+@media (max-width: 768px) {
+    .imagenesPortada {
+        grid-template-columns: 1fr; /* una columna */
+    }
+
+    .imgCard {
+        height: auto; /* se ajusta al contenido */
+    }
+
+    .imgCard img {
+        height: auto; /* mantiene proporción de la imagen */
+    }
 }
