@@ -2,7 +2,7 @@ import React from "react";
 import "./Styles/cards.css";
 const Cards = () => {
   return (
-    <div className="cardsContainer">
+    <div className="cardsContainer" id="Cards">
       {" "}
       {/*contenedor gral*/}
       <div className="imagenesPortada">

@@ -6,6 +6,7 @@ import Footer from "./Components/Footer";
 import QR from "./Components/QR";
 import Banda from "./Components/Banda";
 import Logos from "./Components/Logos";
+import Videos from "./Components/Videos";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <QR /> {QR}
       <Banda />
       {Banda}
+      <Videos />
+      {Videos}
       <Footer /> {Footer}
     </>
   );

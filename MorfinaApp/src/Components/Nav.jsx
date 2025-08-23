@@ -1,14 +1,15 @@
 import React from "react";
 import "./Styles/nav.css";
+
 const Nav = () => {
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#inicio">
             <img
               className="LogoNav"
-              src="./img/logo morfina.jpg"
+              src="/img/logo morfina.jpg"
               alt="Logo Morfina"
             />
           </a>
@@ -24,7 +25,7 @@ const Nav = () => {
           </button>
           <div
             className="offcanvas offcanvas-end text-bg-dark"
-            tabindex="-1"
+            tabIndex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
@@ -42,12 +43,16 @@ const Nav = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="#Content"
+                  >
                     Inicio
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#Cards">
                     Fotos
                   </a>
                 </li>
@@ -59,23 +64,27 @@ const Nav = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Mas
+                    Más
                   </a>
                   <ul className="dropdown-menu dropdown-menu-dark">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#fechas">
                         Fechas
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#comentarios">
                         Comentarios
                       </a>
                     </li>
-
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#sobreBanda">
                         Sobre la Banda
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#QR">
+                        Nuestras Redes
                       </a>
                     </li>
                   </ul>

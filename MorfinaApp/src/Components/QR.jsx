@@ -8,17 +8,12 @@ const QR = () => {
         src=".\public\img\MorfinaQR.jpeg"
         alt="imagen de QR"
         className="img-qr"
+        id="QR"
       />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem
-        possimus vel autem, corporis voluptates. Magnam corrupti, dolor culpa,
-        accusantium non nemo cumque, optio blanditiis fugiat cupiditate quis a
-        recusandae?
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eaque
-        quo quia, eligendi quis architecto porro dolores. Illo aspernatur
-        voluptatibus ipsam, distinctio eum iste eligendi sapiente corrupti,
-        corporis dolorum est.
+        Este es el canal oficial de Morfina R.E.V, estaremos enviando noticias,
+        fechas, eventos, desde ya a los seguidores de este canal tendrán las
+        primicias y descuentos en entradas y demás... Compartí Que sea Rock !!!
       </p>
     </div>
   );

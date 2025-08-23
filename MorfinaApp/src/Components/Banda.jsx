@@ -2,7 +2,7 @@ import React from "react";
 import "./Styles/banda.css";
 const Banda = () => {
   return (
-    <div className="banda-container">
+    <div className="banda-container" id="sobreBanda">
       <h1 className="banda-title">Morfina R.E.V (Rock en las Venas)</h1>
       <p className="txt-banda">
         Morfina R.E.V es una banda de Rock Nacional Argentino nacida en la Zona

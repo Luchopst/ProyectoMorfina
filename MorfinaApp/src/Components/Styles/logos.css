@@ -2,20 +2,33 @@
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column; /* título arriba y logos abajo */
   align-items: center;
-  flex-wrap: wrap; /* permite que bajen de línea si no entran */
-  gap: 2rem; /* espacio entre logos */
+  gap: 2rem;
   padding: 2rem 1rem;
   border: 3px double #fff;
   border-radius: 1rem;
+}
+
+.logos-title {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.logos-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .logoRicotero,
 .logoMorfina {
   width: 20rem;
   height: auto;
-  max-width: 100%; /* nunca se pasa del ancho de pantalla */
+  max-width: 100%;
 }
 
 /* --- Tablets --- */
@@ -28,7 +41,7 @@
 
 /* --- Celulares grandes --- */
 @media (max-width: 768px) {
-  .logos-container {
+  .logos-wrapper {
     flex-direction: column; /* uno arriba del otro */
   }
   .logoRicotero,

@@ -1,0 +1,53 @@
+.videosContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* permite que los videos bajen a otra línea si no entran */
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* contenedor de cada video */
+.AparienciasVideo,
+.HumanidadVideo {
+  position: relative;
+  width: 250px;        /* 🔹 miniatura en pantallas grandes */
+  max-width: 100%;
+  padding-top: 56.25%; /* ratio 16:9 */
+  overflow: hidden;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* iframe ocupa todo el contenedor */
+.AparienciasVideo iframe,
+.HumanidadVideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* efecto hover */
+.AparienciasVideo:hover,
+.HumanidadVideo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* --- Responsive para tablets y celulares --- */
+@media (max-width: 768px) {
+  .videosContainer {
+    flex-direction: column; /* apilar videos verticalmente */
+  }
+  
+  .AparienciasVideo,
+  .HumanidadVideo {
+    width: 100%;           /* 🔹 en pantallas chicas ocupan todo el ancho */
+    padding-top: 56.25%;   /* mantiene ratio 16:9 */
+  }
+}
