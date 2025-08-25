@@ -24,6 +24,12 @@ const Videos = () => {
           allowFullScreen
         ></iframe>
       </div>
+      <div>
+        <a href="#Ver-Mas "></a>
+        <button className="verMas btn" type="button">
+          Ver mas
+        </button>
+      </div>
     </div>
   );
 };

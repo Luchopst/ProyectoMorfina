@@ -12,9 +12,9 @@
 .AparienciasVideo,
 .HumanidadVideo {
   position: relative;
-  width: 250px;        /* 🔹 miniatura en pantallas grandes */
+  width: 450px;        /* 🔹 miniatura en pantallas grandes */
   max-width: 100%;
-  padding-top: 56.25%; /* ratio 16:9 */
+  padding-top: 40.25%; /* ratio 16:9 */
   overflow: hidden;
   border-radius: 1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -38,7 +38,45 @@
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
+/* From Uiverse.io by CristianMontoya98 */ 
+.btn {
+ width: 6.5em;
+ height: 2.3em;
+ margin: 0.5em;
+ background: rgba(169, 123, 123,0.5);
+ color: white;
+ border: none;
+ border-radius: 0.625em;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
 
+button:hover {
+ color: black;
+}
+
+button:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+button:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
 /* --- Responsive para tablets y celulares --- */
 @media (max-width: 768px) {
   .videosContainer {
@@ -47,7 +85,7 @@
   
   .AparienciasVideo,
   .HumanidadVideo {
-    width: 100%;           /* 🔹 en pantallas chicas ocupan todo el ancho */
-    padding-top: 56.25%;   /* mantiene ratio 16:9 */
+    width: 100%;           
+    padding-top: 56.25%;   
   }
 }

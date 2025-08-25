@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
 }
 
@@ -29,6 +29,14 @@
   width: 20rem;
   height: auto;
   max-width: 100%;
+
+}
+.logoRicotero{
+    border-radius: 50%;
+    border: 5px double #fff;
+}
+.logoMorfina{
+    border: 5px double #fff;
 }
 
 /* --- Tablets --- */
