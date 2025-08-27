@@ -18,6 +18,9 @@
     padding: 2rem 1rem; /* menos padding en mobile */
     font-size: 2rem; /* tamaño adaptable */
 }
+.banda-title:hover{
+  color: #ff1f1f;
+}
 
 .txt-banda {
     color: #fff;

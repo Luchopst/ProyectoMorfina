@@ -15,6 +15,9 @@
   color: #fff;
   font-size: 2rem;
 }
+.logos-title:hover{
+  color: #ff1f1f;
+}
 
 .logos-wrapper {
   display: flex;
@@ -35,6 +38,7 @@
     border-radius: 50%;
     border: 5px double #fff;
 }
+
 .logoMorfina{
     border: 5px double #fff;
 }

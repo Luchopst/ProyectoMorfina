@@ -8,7 +8,7 @@ const Logos = () => {
       <div className="logos-wrapper">
         <img
           src="/img/logoRicotero.jpg"
-          className="logoRicotero"
+          className="logoRicotero "
           alt="Logo redonditos"
         />
         <img

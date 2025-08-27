@@ -7,21 +7,28 @@ import QR from "./Components/QR";
 import Banda from "./Components/Banda";
 import Logos from "./Components/Logos";
 import Videos from "./Components/Videos";
+import Mas from "./Components/Mas";
 
 function App() {
   return (
     <>
       <Nav /> {Nav}
-      <Content /> {Content}
+      <Content />
+      {Content}
       <Logos />
       {Logos}
-      <Cards /> {Cards}
-      <QR /> {QR}
+      <Cards />
+      {Cards}
+      <QR />
+      {QR}
       <Banda />
       {Banda}
       <Videos />
       {Videos}
-      <Footer /> {Footer}
+      <Mas />
+      {Mas}
+      <Footer />
+      {Footer}
     </>
   );
 }

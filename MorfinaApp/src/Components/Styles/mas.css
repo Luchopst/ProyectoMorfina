@@ -1,0 +1,77 @@
+.mas-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Por defecto, en móviles 1 columna */
+  gap: 20px;
+  padding: 20px;
+}
+
+.mas-container > div {
+  display: flex;
+  flex-direction: column; /* video arriba, descripción abajo */
+  align-items: center;
+  text-align: center;
+ 
+}
+.descripcion{
+    font-size: 16px;
+}
+/* Estilos para iframe */
+.mas-container iframe {
+  max-width: 100%;
+  height: auto;
+  border: 5px double #fff;
+  border-radius: 8px;
+}
+/* From Uiverse.io by CristianMontoya98 */ 
+.boton-container {
+  grid-column: 1 / -1; /* hace que ocupe toda la fila en grid */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+ width: 6.5em;
+ height: 2.3em;
+ margin: 0.5em;
+ background: rgba(169, 123, 123,0.5);
+ color: white;
+ border: none;
+ border-radius: 0.625em;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+button:hover {
+ color: black;
+}
+
+button:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+button:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+
+/* A partir de pantallas grandes: 2 columnas */
+@media (min-width: 768px) {
+  .mas-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

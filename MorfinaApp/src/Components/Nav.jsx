@@ -56,6 +56,11 @@ const Nav = () => {
                     Fotos
                   </a>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#Videos">
+                    Videos
+                  </a>
+                </li>
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
