@@ -46,13 +46,13 @@
  overflow: hidden;
 }
 
-button:hover {
- color: black;
+.btn:hover {
+ color: #000000;
 }
 
-button:after {
+.btn:after {
  content: "";
- background: white;
+ background: #3196d5;
  position: absolute;
  z-index: -1;
  left: -20%;
@@ -63,7 +63,7 @@ button:after {
  transition: all 0.5s;
 }
 
-button:hover:after {
+.btn:hover:after {
  transform: skewX(-45deg) scale(1, 1);
  -webkit-transition: all 0.5s;
  transition: all 0.5s;

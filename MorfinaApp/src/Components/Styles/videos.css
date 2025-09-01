@@ -39,7 +39,7 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 /* From Uiverse.io by CristianMontoya98 */ 
-.btn {
+.btn-verMas {
  width: 6.5em;
  height: 2.3em;
  margin: 0.5em;
@@ -55,13 +55,13 @@
  overflow: hidden;
 }
 
-button:hover {
- color: black;
+.btn-verMas:hover {
+ color:  #000000;
 }
 
-button:after {
+.btn-verMas:after {
  content: "";
- background: white;
+ background: #3196d5;
  position: absolute;
  z-index: -1;
  left: -20%;
@@ -72,7 +72,7 @@ button:after {
  transition: all 0.5s;
 }
 
-button:hover:after {
+.btn-verMas:hover:after {
  transform: skewX(-45deg) scale(1, 1);
  -webkit-transition: all 0.5s;
  transition: all 0.5s;

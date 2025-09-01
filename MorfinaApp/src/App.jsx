@@ -8,6 +8,7 @@ import Banda from "./Components/Banda";
 import Logos from "./Components/Logos";
 import Videos from "./Components/Videos";
 import Mas from "./Components/Mas";
+import Login from "./Components/Login";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       {Videos}
       <Mas />
       {Mas}
+      <Login />
+      {Login}
       <Footer />
       {Footer}
     </>

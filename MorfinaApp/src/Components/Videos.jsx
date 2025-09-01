@@ -26,7 +26,7 @@ const Videos = () => {
       </div>
       <div>
         <a href="#Ver-Mas "></a>
-        <button className="verMas btn" type="button">
+        <button className="verMas btn-verMas" type="button">
           Ver mas
         </button>
       </div>
