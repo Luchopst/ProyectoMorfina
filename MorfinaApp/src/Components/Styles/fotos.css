@@ -1,0 +1,51 @@
+.fotoContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* se adapta solo */
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.foto {
+  width: 100%; 
+  max-width: 20rem; /* opcional */
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+  border: 3px double #fff;
+  border-radius: 1rem;
+  background: #000; /* fondo para cuando la imagen no llena todo */
+}
+
+.foto > img {
+  width: 100%;
+  height: auto;        /* ahora la altura es automática */
+  object-fit: contain; /* asegura que se vea la imagen completa */
+  display: block;
+}
+
+.foto-txt {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.fotoTitle {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .fotoContainer {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .fotoContainer {
+    grid-template-columns: 1fr;
+  }
+}

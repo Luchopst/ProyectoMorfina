@@ -12,7 +12,7 @@ const Logos = () => {
           alt="Logo redonditos"
         />
         <img
-          src="/img/morfinaFondo.jpeg"
+          src="/img/logoMorfina.jpeg"
           className="logoMorfina"
           alt="Logo Morfina"
         />

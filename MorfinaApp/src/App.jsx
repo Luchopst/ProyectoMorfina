@@ -9,6 +9,7 @@ import Logos from "./Components/Logos";
 import Videos from "./Components/Videos";
 import Mas from "./Components/Mas";
 import Login from "./Components/Login";
+import Fotos from "./Components/Fotos";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       {Mas}
       <Login />
       {Login}
+      <Fotos />
+      {Fotos}
       <Footer />
       {Footer}
     </>
