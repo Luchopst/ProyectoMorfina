@@ -2,7 +2,7 @@ import React from "react";
 import "./Styles/mas.css";
 const Mas = () => {
   return (
-    <div className="mas-container">
+    <div className="mas-container" id="Mas">
       <div className="video01">
         <iframe
           width="560"
@@ -112,9 +112,8 @@ const Mas = () => {
         </p>
       </div>
       <div className="boton-container">
-        <a href="#Content "></a>
         <button className="verMas btn" type="button">
-          Inicio
+          <a href="#Content">Inicio</a>
         </button>
       </div>
     </div>

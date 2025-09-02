@@ -10,6 +10,7 @@ import Videos from "./Components/Videos";
 import Mas from "./Components/Mas";
 import Login from "./Components/Login";
 import Fotos from "./Components/Fotos";
+import Comentarios from "./Components/Comentarios";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
       {Login}
       <Fotos />
       {Fotos}
+      <Comentarios />
+      {Comentarios}
       <Footer />
       {Footer}
     </>

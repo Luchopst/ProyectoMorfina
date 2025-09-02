@@ -32,11 +32,17 @@
 .formularioContainer,
 .imagenContainer {
   width: 20rem;
-  height: 20rem;
+  min-height: 20rem; /* permite que crezca si el contenido es más grande */
   border: 3px double #fff;
   border-radius: 2rem;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch; /* para que los inputs ocupen todo el ancho */
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 /* Imagen */
@@ -48,8 +54,9 @@
 
 /* Formulario */
 .formularioContainer {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
   justify-content: center;
   align-items: center;
   text-align: center;

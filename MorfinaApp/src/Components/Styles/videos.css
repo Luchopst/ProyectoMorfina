@@ -77,6 +77,13 @@
  -webkit-transition: all 0.5s;
  transition: all 0.5s;
 }
+a {
+  text-decoration: none; /* quita el subrayado */
+  color: inherit;        /* hereda el color del texto del contenedor */
+  background: none;      /* elimina cualquier fondo */
+  border: none;          /* elimina bordes si los hubiera */
+  outline: none;         /* quita el borde al hacer foco */
+}
 /* --- Responsive para tablets y celulares --- */
 @media (max-width: 768px) {
   .videosContainer {

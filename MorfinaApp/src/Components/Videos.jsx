@@ -4,7 +4,7 @@ import "./Styles/videos.css";
 
 const Videos = () => {
   return (
-    <div className="videosContainer">
+    <div className="videosContainer" id="Videos">
       <div className="AparienciasVideo">
         <iframe
           src="https://www.youtube.com/embed/QCkZY70I2vA?si=q5fcKDObMbU7Ipm-"
@@ -25,9 +25,8 @@ const Videos = () => {
         ></iframe>
       </div>
       <div>
-        <a href="#Ver-Mas "></a>
         <button className="verMas btn-verMas" type="button">
-          Ver mas
+          <a href="#Mas">Ver mas </a>
         </button>
       </div>
     </div>

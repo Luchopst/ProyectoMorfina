@@ -52,7 +52,7 @@ const Nav = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Cards">
+                  <a className="nav-link" href="#Fotos">
                     Fotos
                   </a>
                 </li>
@@ -78,7 +78,7 @@ const Nav = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#comentarios">
+                      <a className="dropdown-item" href="#Comentarios">
                         Comentarios
                       </a>
                     </li>
