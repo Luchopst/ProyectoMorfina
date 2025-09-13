@@ -1,0 +1,89 @@
+.fechasContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border: 3px double #fff;
+    border-radius: 2rem;
+    padding: 1rem; /* un poco de aire */
+    box-sizing: border-box;
+}
+
+.fechasTitle {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.fechaVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap; /* permite que el contenido baje en pantallas chicas */
+    gap: 1rem;
+}
+
+.fechasTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: start;
+    font-size: 1rem;
+    border: 3px double #fff;
+    width: 100%;
+    max-width: 600px; /* limita en pantallas grandes */
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.Videos {
+    width: 100%;
+    max-width: 600px; /* limita el tamaño en desktop */
+    height: auto; /* importante: deja que el alto sea proporcional */
+    aspect-ratio: 16 / 9; /* mantiene proporción del video */
+    border-radius: 1rem;
+}
+
+strong:hover {
+    color: rgb(203, 4, 4);
+    transition: all 1s;
+    font-size: 20px;
+}
+
+/* 🔹 RESPONSIVIDAD */
+@media (max-width: 768px) {
+    .fechasTitle {
+        font-size: 1.5rem;
+    }
+
+    .fechasTxt {
+        font-size: 0.9rem;
+    }
+
+    .Videos {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .fechasTitle {
+        font-size: 1.2rem;
+    }
+
+    .fechasTxt {
+        font-size: 0.8rem;
+        text-align: center; /* centrado en pantallas muy chicas */
+    }
+
+    strong:hover {
+        font-size: 18px;
+    }
+}

@@ -73,7 +73,7 @@ const Nav = () => {
                   </a>
                   <ul className="dropdown-menu dropdown-menu-dark">
                     <li>
-                      <a className="dropdown-item" href="#fechas">
+                      <a className="dropdown-item" href="#Fechas">
                         Fechas
                       </a>
                     </li>

@@ -11,6 +11,7 @@ import Mas from "./Components/Mas";
 import Login from "./Components/Login";
 import Fotos from "./Components/Fotos";
 import Comentarios from "./Components/Comentarios";
+import Fechas from "./Components/Fechas";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
       {Fotos}
       <Comentarios />
       {Comentarios}
+      <Fechas />
+      {Fechas}
       <Footer />
       {Footer}
     </>
