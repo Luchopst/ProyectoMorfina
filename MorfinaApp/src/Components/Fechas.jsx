@@ -33,7 +33,7 @@ const Fechas = () => {
               <strong>"MORFINA R.E.V"</strong>
             </a>
             tu LIKE nos da una gran mano.. como siempre los esperamos y que sea
-            Rock!!!
+            Rock!!! ...
           </p>
         </section>
       </div>

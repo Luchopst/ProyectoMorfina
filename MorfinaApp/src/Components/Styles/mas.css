@@ -18,7 +18,7 @@
 /* Estilos para iframe */
 .mas-container iframe {
   max-width: 100%;
-  height: auto;
+  height: 350px;
   border: 5px double #fff;
   border-radius: 8px;
 }
@@ -68,6 +68,7 @@
  -webkit-transition: all 0.5s;
  transition: all 0.5s;
 }
+
 
 /* A partir de pantallas grandes: 2 columnas */
 @media (min-width: 768px) {
